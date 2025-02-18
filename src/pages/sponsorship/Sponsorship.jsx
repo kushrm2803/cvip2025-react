@@ -34,7 +34,7 @@ const SponsorshipPage = () => {
         initial="hidden"
         animate="visible"
         exit="exit"
-        className="bg-white p-4 md:p-8 rounded-xl shadow-lg mb-8"
+        className="bg-white p-4 md:p-8 rounded-xl shadow-lg"
       >
   <motion.section
       className="mb-8"
@@ -134,7 +134,7 @@ const SponsorshipPage = () => {
             visible: { opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.4 } },
           }}
         >
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 mt-18">
             Sponsorship Tiers
           </h2>
           <SponsorshipTable />

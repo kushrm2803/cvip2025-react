@@ -11,7 +11,7 @@ const AdditionalInfo = () => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -50 }}
         transition={{ duration: 0.8 }}
-        className="bg-white shadow-md rounded-lg p-6 max-w-3xl mx-auto"
+        className="bg-white shadow-lg rounded-lg p-6 max-w-3xl mx-auto"
       >
         <h2 className="text-3xl font-semibold mb-4 text-center">
           Additional Information

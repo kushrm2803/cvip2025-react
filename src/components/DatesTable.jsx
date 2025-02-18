@@ -32,7 +32,7 @@ const DatesTable = ({ dates }) => {
         </h2>
 
         {/* Box Wrapper with Shadow */}
-        <div className="overflow-x-auto shadow-xl rounded-lg border border-gray-300 bg-white">
+        <div className="overflow-x-auto shadow-lg rounded-lg  bg-white">
           <motion.table
             variants={tableVariants}
             initial="hidden"
@@ -41,9 +41,9 @@ const DatesTable = ({ dates }) => {
           >
             <thead>
               <tr className="bg-gray-200 text-gray-800">
-                <th className="p-4 border border-gray-400">Phase</th>
-                <th className="p-4 border border-gray-400">Date</th>
-                <th className="p-4 border border-gray-400">Status</th>
+                <th className="p-4 border border-gray-300">Phase</th>
+                <th className="p-4 border border-gray-300">Date</th>
+                <th className="p-4 border border-gray-300">Status</th>
               </tr>
             </thead>
             <tbody>
