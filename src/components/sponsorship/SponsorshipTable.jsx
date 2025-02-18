@@ -70,9 +70,9 @@ const SponsorshipTable = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="w-full overflow-x-auto thin-scrollbar"
+      className="w-full overflow-x-auto thin-scrollbar shadow-lg"
     >
-      <table className="w-full border-collapse border border-gray-300 text-base md:text-lg shadow-md">
+      <table className="w-full border-collapse border border-gray-300 text-base md:text-lg shadow-lg">
         <thead>
           <tr className="bg-gray-100">
             <th className="border border-gray-300 px-2 md:px-4 py-2">Type of Sponsorship</th>
