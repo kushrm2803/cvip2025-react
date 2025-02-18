@@ -1,11 +1,11 @@
 import React from "react";
-import Carousel from "../components/home/carousel/Carousel";
-import ConferenceDetails from "../components/home/ConferenceDetails";
+import Carousel from "../../components/home/carousel/Carousel";
+import ConferenceDetails from "../../components/home/ConferenceDetails";
 // import SpeakersSection from "../components/home/SpeakersSection";
-import AboutIITRopar from "../components/home/AboutIITRopar";
-// import SponsorsSection from "../components/home/SponsorsSection";
-import EventCountDown from "../components/home/EventCountDown";
-import DatesTable from "../components/DatesTable";
+import AboutIITRopar from "../../components/home/AboutIITRopar";
+// import SponsorsSection from "../../components/home/SponsorsSection";
+import EventCountDown from "../../components/home/EventCountDown";
+import DatesTable from "../../components/DatesTable";
 
 const HomePage = () => {
   const dates = [
@@ -55,7 +55,6 @@ const HomePage = () => {
     <div className="w-full">
       <Carousel />
       <ConferenceDetails />
-      {/* Uncomment if you want to display speakers */}
       {/* <SpeakersSection /> */}
       <EventCountDown
         eventStartDate="2025-12-10T00:00:00"
@@ -65,7 +64,6 @@ const HomePage = () => {
         <DatesTable key={Math.random()} dates={dates} />
       </div>
       <AboutIITRopar />
-      {/* Uncomment if you want to display sponsors */}
       {/* <SponsorsSection /> */}
     </div>
   );

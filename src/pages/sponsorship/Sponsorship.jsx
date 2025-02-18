@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import HeroSection from "../components/HeroSection";
-import SponsorshipTable from "../components/sponsorship/SponsorshipTable";
+import HeroSection from "../../components/HeroSection";
+import SponsorshipTable from "../../components/sponsorship/SponsorshipTable";
 
 const containerVariants = {
   hidden: { opacity: 0 },

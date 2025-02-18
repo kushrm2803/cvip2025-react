@@ -57,7 +57,7 @@ const Navbar = ({ isMobile, closeMenu }) => {
     { label: "Sponsorships", link: "/sponsorships" },
     { label: "Registrations", link: "/registrations" },
     {
-      label: "Year",
+      label: "Archive",
       dropdown: [
         { label: "2024", link: "https://cvip2024.iiitdm.ac.in/" },
         { label: "2023", link: "https://iitjammu.ac.in/cvip2023/index.html" },

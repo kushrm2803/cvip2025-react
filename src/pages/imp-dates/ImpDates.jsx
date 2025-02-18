@@ -1,7 +1,7 @@
 import React from "react";
-import HeroSection from "../components/HeroSection";
-import DatesTable from "../components/DatesTable";
-import AdditionalInfo from "../components/imp-dates/AdditionalInfo";
+import HeroSection from "../../components/HeroSection";
+import DatesTable from "../../components/DatesTable";
+import AdditionalInfo from "../../components/imp-dates/AdditionalInfo";
 
 const ImpDates = () => {
   const dates = [
