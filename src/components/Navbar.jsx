@@ -74,8 +74,8 @@ const Navbar = ({ isMobile, closeMenu }) => {
     : "flex justify-center space-x-6";
 
   const dropdownClasses = isMobile
-    ? "relative bg-gray-50 mt-2 rounded-md max-h-60 overflow-y-auto"
-    : "absolute left-0 bg-white border rounded-md shadow-lg py-2 z-10 w-48 max-h-60 overflow-y-auto thin-scrollbar";
+    ? "relative left-4 rounded-md max-h-65 overflow-y-auto shadow-lg bg-gray-50 max-w-[80vw]"
+    : "absolute left-0 bg-white rounded-md shadow-xl py-2 z-10 w-48 max-h-65 overflow-y-auto thin-scrollbar";
 
   const linkClasses = isMobile
     ? "w-full px-4 py-2 block hover:bg-gray-100"
