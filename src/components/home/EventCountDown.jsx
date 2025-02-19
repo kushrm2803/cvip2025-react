@@ -27,7 +27,7 @@ const EventCountDown = ({ eventStartDate, eventEndDate }) => {
   }, [eventStartDate]);
 
   return (
-    <div className="bg-white text-gray-900 p-8 rounded-xl shadow-lg min-h-[30vh] grid grid-cols-1 lg:grid-cols-3 gap-7 items-center text-center">
+    <div className="bg-white text-gray-900 p-6 lg:p-8 rounded-xl shadow-lg min-h-[30vh] grid grid-cols-1 lg:grid-cols-3 gap-7 items-center text-center">
       <div>
         <h2 className="text-4xl font-bold mb-4">Venue</h2>
         <p className="text-xl mb-6">IIT Ropar, Punjab, India</p>

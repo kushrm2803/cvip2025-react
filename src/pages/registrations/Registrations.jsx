@@ -106,7 +106,7 @@ const data = [
 
 const Registrations = () => {
   return (
-    <div className="bg-gray-100 min-h-screen p-2 md:p-12">
+    <div className="bg-gray-100 min-h-screen p-1 md:p-12">
       <HeroSection
         key={Math.random()}
         title="Registrations"
@@ -114,7 +114,7 @@ const Registrations = () => {
       />
 
       <div className="bg-white p-6 md:p-10 rounded-xl shadow-lg">
-        <ul className="list-disc list-inside text-base">
+        <ul className="list-disc list-outside text-base">
           <li>
             <span className="font-normal">
               Registration and camera-ready submission portals open (Round 1):
@@ -138,7 +138,7 @@ const Registrations = () => {
         <h2 className="pt-4 text-2xl font-semibold mb-4">
           Registration Instructions
         </h2>
-        <ol className="list-decimal list-inside text-lg mb-6 space-y-2">
+        <ol className="list-decimal list-outside text-lg mb-6 space-y-2">
           <li>
             Registration fees is to be paid at the following link:{" "}
             <a href="#" className="text-blue-600 underline">
@@ -163,7 +163,7 @@ const Registrations = () => {
         <h3 className="text-2xl font-semibold mb-4">
           Single Conference Registration Includes
         </h3>
-        <ul className="list-disc list-inside text-lg mb-6 space-y-2">
+        <ul className="list-disc list-outside text-lg mb-6 space-y-2">
           <li>All CVIP 2025 conference sessions</li>
           <li>All keynote and invited talks</li>
           <li>Refreshments and lunch (Dec 10-13, 2025)</li>
@@ -174,7 +174,7 @@ const Registrations = () => {
         <h3 className="text-2xl font-semibold mb-4">
           Please Note the Following Conditions Before Registering
         </h3>
-        <ul className="list-disc list-inside text-lg space-y-2">
+        <ul className="list-disc list-outside text-lg space-y-2">
           <li>
             Registration form is available at{" "}
             <a href="#" className="text-blue-600 underline">
@@ -241,7 +241,7 @@ const Registrations = () => {
 
         {/* Notes Section */}
         <h3 className="text-3xl font-semibold my-4 text-gray-800">Notes</h3>
-        <ul className="list-disc list-inside text-gray-700 space-y-2">
+        <ul className="list-disc list-outside text-gray-700 space-y-2">
           <li>
             <strong>18% GST</strong> is included in the registration fee given above.
           </li>

@@ -6,7 +6,7 @@ import NotificationsList from "./NotificationsList";
 const ConferenceDetails = () => {
   return (
     <div id="conference-about" className="bg-gray-100 py-6 w-full">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-0 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
           <div className="lg:col-span-3 w-full">
             <ConferenceInfo />
