@@ -9,7 +9,7 @@ const MemberCard = ({ name, role, image, link }) => {
       transition={{ duration: 0.3 }}
     >
       <div className="relative w-full h-48">
-        <img src={image} alt={name} className="w-full h-full object-contain" />
+        <img src={"/cvip2025"+image} alt={name} className="w-full h-full object-contain" />
       </div>
       <div className="p-3">
         <h3 className="text-xl font-semibold">{name}</h3>
