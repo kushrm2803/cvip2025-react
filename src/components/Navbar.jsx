@@ -70,7 +70,7 @@ const Navbar = ({ isMobile, closeMenu }) => {
   ];
 
   const navClasses = isMobile
-    ? "flex flex-col space-y-2 max-h-[80vh] overflow-y-auto thin-scrollbar"
+    ? "flex flex-col space-y-2 max-h-[80vh] overflow-y-auto thin-scrollbar px-0 mx-0 overflow-x-hidden"
     : "flex justify-center space-x-6";
 
   const dropdownClasses = isMobile
@@ -82,7 +82,7 @@ const Navbar = ({ isMobile, closeMenu }) => {
     : "text-gray-800 hover:text-blue-600 font-medium";
 
   return (
-    <nav className="flex-grow">
+    <nav className="flex-grow w-full overflow-x-hidden">
       <div className={isMobile ? "max-h-[80vh] overflow-y-auto" : ""}>
         <ul className={navClasses}>
           {tabs.map((tab, index) => (
