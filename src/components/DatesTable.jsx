@@ -1,45 +1,68 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+const tableVariants = {
+  hidden: { opacity: 0, scale: 0.95 },
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.5, ease: "easeOut" } },
+};
+
+const rowVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: (index) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: 0.05 * index, duration: 0.4, ease: "easeOut" },
+  }),
+};
+
 const DatesTable = ({ dates }) => {
   return (
     <AnimatePresence mode="wait">
       <motion.div
         key="dates-table"
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: 50 }}
-        transition={{ duration: 0.8 }}
+        initial="hidden"
+        animate="visible"
+        exit="hidden"
+        variants={tableVariants}
         className="mb-12"
       >
-        <div id="imp-dates-home" className="py-8"></div>
-        <h2 className="text-3xl font-semibold mb-8 text-center" id="imp-dates-home">
+        <div id="imp-dates-home" className="py-2"></div>
+        <h2 className="text-3xl font-semibold mb-8 text-center">
           Important Deadlines
         </h2>
-        <div className="overflow-x-auto">
-          <table className="w-full text-left table-auto border-collapse">
+
+        {/* Box Wrapper with Shadow */}
+        <div className="overflow-x-auto shadow-lg rounded-lg  bg-white">
+          <motion.table
+            variants={tableVariants}
+            initial="hidden"
+            animate="visible"
+            className="w-full text-left table-auto border-collapse"
+          >
             <thead>
-              <tr className="bg-gray-200">
-                <th className="p-4 border">Phase</th>
-                <th className="p-4 border">Date</th>
-                <th className="p-4 border">Status</th>
+              <tr className="bg-gray-200 text-gray-800">
+                <th className="p-4 border border-gray-300">Phase</th>
+                <th className="p-4 border border-gray-300">Date</th>
+                <th className="p-4 border border-gray-300">Status</th>
               </tr>
             </thead>
             <tbody>
               {dates.map((date, index) => (
                 <motion.tr
                   key={index}
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -30 }}
-                  transition={{ delay: 0.2 * index, duration: 0.5 }}
-                  className={index % 2 === 0 ? "bg-gray-100" : ""}
+                  custom={index}
+                  initial="hidden"
+                  animate="visible"
+                  variants={rowVariants}
+                  className={`transition-all duration-300 ${
+                    index % 2 === 1 ? "bg-gray-100" : "bg-white"
+                  } hover:bg-gray-200`}
                 >
-                  <td className="p-4 border">{date.phase}</td>
-                  <td className="p-4 border">{date.date}</td>
-                  <td className="p-4 border">
+                  <td className="p-4 border border-gray-300">{date.phase}</td>
+                  <td className="p-4 border border-gray-300">{date.date}</td>
+                  <td className="p-4 border border-gray-300">
                     <span
-                      className={`${
+                      className={`font-semibold ${
                         date.status === "Open"
                           ? "text-green-600"
                           : date.status === "Closed"
@@ -53,7 +76,7 @@ const DatesTable = ({ dates }) => {
                 </motion.tr>
               ))}
             </tbody>
-          </table>
+          </motion.table>
         </div>
       </motion.div>
     </AnimatePresence>

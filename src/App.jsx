@@ -19,8 +19,8 @@ import TouristPlacesNearby from "./pages/venue/TouristPlaceNearby"
 
 const App = () => {
   return (
-    <Router>
-      <div className="antialiased min-h-screen flex flex-col">
+    <Router basename="/cvip2025">
+      <div className="antialiased min-h-screen flex flex-col overflow-hidden">
         <Header />
         <main className="flex-grow">
           <Routes>
