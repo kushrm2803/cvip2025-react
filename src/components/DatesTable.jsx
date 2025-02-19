@@ -26,7 +26,7 @@ const DatesTable = ({ dates }) => {
         variants={tableVariants}
         className="mb-12"
       >
-        <div id="imp-dates-home" className="py-8"></div>
+        <div id="imp-dates-home" className="py-2"></div>
         <h2 className="text-3xl font-semibold mb-8 text-center">
           Important Deadlines
         </h2>
