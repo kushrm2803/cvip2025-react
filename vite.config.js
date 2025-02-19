@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  basename = "/cvip2025/",
+  base = "/cvip2025/",
   server: {
     allowedHosts: true,
   },
