@@ -3,7 +3,6 @@
   "homepage": "https://www.iitrpr.ac.in/cvip2025/",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://www.iitrpr.ac.in/cvip2025",
   "type": "module",
   "scripts": {
     "dev": "vite",
