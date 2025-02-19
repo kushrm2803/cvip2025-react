@@ -21,7 +21,7 @@ const Header = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/iitropar-logo.jpg"
+                src="/cvip2025/iitropar-logo.jpg"
                 alt="Logo"
                 className="h-8 w-auto md:h-10"
                 width="100"

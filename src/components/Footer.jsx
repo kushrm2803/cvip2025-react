@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-center mb-2 md:mb-0">
             <div className="mr-4">
               <img
-                src="/iitropar-logo.jpg"
+                src="/cvip2025/iitropar-logo.jpg"
                 alt="College Logo"
                 width="64"
                 height="64"

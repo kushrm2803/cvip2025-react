@@ -21,7 +21,7 @@ const TouristPlace = ({
     >
       <div className="md:w-1/2">
         <img
-          src={imageUrl}
+          src={"/cvip2025"+imageUrl}
           alt={title}
           className="w-full h-auto object-cover rounded-lg shadow-md"
         />

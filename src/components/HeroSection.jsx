@@ -14,7 +14,7 @@ const HeroSection = ({ title, imageUrl }) => {
           transition={{ duration: 1 }}
         >
           <img
-            src={imageUrl}
+            src={"/cvip2025"+imageUrl}
             alt={title}
             className="absolute inset-0 w-full h-full object-cover"
           />

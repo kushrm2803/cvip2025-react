@@ -11,7 +11,7 @@ const CarouselItem = ({ src, alt, isActive, children, className }) => {
       animate={{ opacity: isActive ? 1 : 0 }}
       transition={{ duration: 0.8, ease: "easeInOut" }}
     >
-      <img src={src} alt={alt} className="absolute block w-full h-full object-cover" />
+      <img src={"/cvip2025"+src} alt={alt} className="absolute block w-full h-full object-cover" />
       {children}
     </motion.div>
   );

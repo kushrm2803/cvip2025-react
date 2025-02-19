@@ -43,7 +43,7 @@ const ImageSlider = () => {
               className="overflow-hidden rounded-lg shadow-md"
             >
               <img
-                src={image}
+                src={"/cvip2025"+image}
                 alt={`Institute ${index + 1}`}
                 className="w-full h-64 object-cover"
               />

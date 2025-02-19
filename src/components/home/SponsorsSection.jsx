@@ -32,7 +32,7 @@ const SponsorsSection = () => {
               className="flex justify-center items-center bg-white p-8 rounded-lg"
             >
               <img
-                src={sponsor.logo}
+                src={"/cvip2025" + sponsor.logo}
                 alt={sponsor.name}
                 className="h-44 w-auto object-contain"
               />
