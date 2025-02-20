@@ -43,7 +43,7 @@ const DatesTable = ({ dates }) => {
               <tr className="bg-gray-200 text-gray-800">
                 <th className="p-4 border border-gray-300">Phase</th>
                 <th className="p-4 border border-gray-300">Date</th>
-                <th className="p-4 border border-gray-300">Status</th>
+                {/* <th className="p-4 border border-gray-300">Status</th> */}
               </tr>
             </thead>
             <tbody>
@@ -60,7 +60,7 @@ const DatesTable = ({ dates }) => {
                 >
                   <td className="p-4 border border-gray-300">{date.phase}</td>
                   <td className="p-4 border border-gray-300">{date.date}</td>
-                  <td className="p-4 border border-gray-300">
+                  {/* <td className="p-4 border border-gray-300">
                     <span
                       className={`font-semibold ${
                         date.status === "Open"
@@ -72,7 +72,7 @@ const DatesTable = ({ dates }) => {
                     >
                       {date.status}
                     </span>
-                  </td>
+                  </td> */}
                 </motion.tr>
               ))}
             </tbody>
