@@ -19,13 +19,18 @@ const images = [
 const ImageSlider = () => {
   return (
     <Swiper
-      slidesPerView={3}
+      slidesPerView={1}
       spaceBetween={20}
       centeredSlides={true}
       loop={true}
-      autoplay={{ delay: 3000, disableOnInteraction: false }}
+      autoplay={{ delay: 3500, disableOnInteraction: false }}
       navigation={true}
       pagination={{ clickable: true }}
+      breakpoints={{
+        640: { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+      }}
       modules={[Navigation, Pagination, Autoplay]}
       className="w-full max-w-5xl mx-auto"
     >
@@ -38,7 +43,7 @@ const ImageSlider = () => {
                 opacity: isActive ? 1 : 0.7,
                 filter: isActive ? "blur(0px)" : "blur(2px)",
               }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.6 }}
               whileHover={isActive ? { scale: 1.25 } : {}}
               className="overflow-hidden rounded-lg shadow-md"
             >
