@@ -45,6 +45,7 @@ const ImageSlider = () => {
               <img
                 src={"/cvip2025"+image}
                 alt={`Institute ${index + 1}`}
+                loading = "lazy"
                 className="w-full h-64 object-cover"
               />
             </motion.div>
