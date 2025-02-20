@@ -11,12 +11,12 @@ const HomePage = () => {
   const dates = [
     {
       phase: "Paper Submission Starts",
-      date: "February 1st, 2025",
+      date: "February 25, 2025",
       status: "Open",
     },
     {
       phase: "First Round - Paper Submission Deadline",
-      date: "April 30, 2025",
+      date: "April 15, 2025",
       status: "Closed",
     },
     {
@@ -26,26 +26,26 @@ const HomePage = () => {
     },
     {
       phase: "Second Round - Paper Submission Deadline",
-      date: "August 31, 2025",
+      date: "August 10, 2025",
       status: "Closed",
     },
     {
       phase: "Notification of Paper Acceptance",
-      date: "October 15, 2025",
+      date: "October 10, 2025",
       status: "Closed",
     },
     {
       phase: "Camera Ready Submission Deadline",
-      date: "November 05, 2025",
+      date: "October 31, 2025",
       status: "Open",
     },
     {
-      phase: "Early Bird Registration Deadline",
-      date: "November 05, 2025",
+      phase: "Academia and Industry Workshops",
+      date: "December 10, 2025",
       status: "Open",
     },
     {
-      phase: "Conference Dates",
+      phase: "Main Conference Dates",
       date: "December 11-13, 2025",
       status: "Scheduled",
     },
