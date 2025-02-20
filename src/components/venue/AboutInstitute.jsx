@@ -12,7 +12,7 @@ const AboutInstitute = () => {
     >
       <h1 className="text-4xl font-bold text-center mb-6">About the Institute</h1>
       <p className="text-lg text-gray-700 leading-relaxed">
-        The conference is hosted by the renowned <strong>Indian Institute of Technology, Ropar</strong>, recognized for its cutting-edge research, academic excellence, and innovative spirit. Established with the vision of nurturing future leaders in science, technology, and engineering, IIT Ropar has rapidly emerged as a hub for transformative learning and groundbreaking research.
+        The conference is hosted by the renowned <strong>Indian Institute of Technology Ropar</strong>, recognized for its cutting-edge research, academic excellence, and innovative spirit. Established with the vision of nurturing future leaders in science, technology, and engineering, IIT Ropar has rapidly emerged as a hub for transformative learning and groundbreaking research.
       </p>
       <p className="text-lg text-gray-700 leading-relaxed mt-4">
         Located in the vibrant city of Ropar in Punjab, the institute is set on a sprawling, modern campus that harmoniously blends state-of-the-art infrastructure with natural beauty. The serene environment provides an ideal setting for academic discussions, creative pursuits, and innovative projects.

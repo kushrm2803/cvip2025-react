@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const sponsorshipTiers = [
   {
     type: "Platinum",
-    fund: "5 Lacs",
+    fund: "7 Lacs",
     complimentaryPass: "7",
     tableStall: "Stall",
     websiteBranding: "Yes",
@@ -14,7 +14,7 @@ const sponsorshipTiers = [
   },
   {
     type: "Diamond",
-    fund: "3 Lacs",
+    fund: "5 Lacs",
     complimentaryPass: "4",
     tableStall: "Stall",
     websiteBranding: "Yes",
@@ -24,7 +24,7 @@ const sponsorshipTiers = [
   },
   {
     type: "Gold",
-    fund: "2 Lacs",
+    fund: "3 Lacs",
     complimentaryPass: "3",
     tableStall: "Table",
     websiteBranding: "Yes",
@@ -34,7 +34,7 @@ const sponsorshipTiers = [
   },
   {
     type: "Silver",
-    fund: "1 Lacs",
+    fund: "1.5 Lacs",
     complimentaryPass: "2",
     tableStall: "Table",
     websiteBranding: "Yes",
@@ -44,7 +44,7 @@ const sponsorshipTiers = [
   },
   {
     type: "Bronze",
-    fund: "50 K",
+    fund: "75 K",
     complimentaryPass: "1",
     tableStall: "No",
     websiteBranding: "Yes",
@@ -76,7 +76,7 @@ const SponsorshipTable = () => {
         <thead>
           <tr className="bg-gray-100">
             <th className="border border-gray-300 px-2 md:px-4 py-2">Type of Sponsorship</th>
-            <th className="border border-gray-300 px-2 md:px-4 py-2">Fund (₹)</th>
+            <th className="border border-gray-300 px-2 md:px-4 py-2">Fund (₹) [excl. GST]</th>
             <th className="border border-gray-300 px-2 md:px-4 py-2">Complimentary Pass</th>
             <th className="border border-gray-300 px-2 md:px-4 py-2">Table/Stall</th>
             <th className="border border-gray-300 px-2 md:px-4 py-2">Website/Branding</th>

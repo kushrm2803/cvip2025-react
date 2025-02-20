@@ -68,7 +68,7 @@ const Footer = () => {
 
         <div className="text-center mt-4">
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} Indian Institute of Technology, Ropar. All rights reserved.
+            © {new Date().getFullYear()} Indian Institute of Technology Ropar. All rights reserved.
           </p>
         </div>
       </div>
