@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const MemberCard = ({ name, role, image, link }) => {
   return (
     <motion.div
-      className="relative bg-white shadow-lg rounded-lg overflow-hidden group"
+      className="relative bg-white shadow-lg rounded-lg overflow-hidden group max-w-[315px] md:min-w-[280px] min-w-[300px]"
       whileHover={{ scale: 1.02 }}
       transition={{ duration: 0.3 }}
     >
@@ -15,7 +15,7 @@ const MemberCard = ({ name, role, image, link }) => {
         <h3 className="text-xl font-semibold">{name}</h3>
         <p className="text-gray-600">{role}</p>
       </div>
-      <motion.div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      <motion.div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-75 transition-opacity duration-300">
         <a
           href={link}
           target="_blank"
