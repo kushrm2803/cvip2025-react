@@ -22,19 +22,19 @@ const OrganizingCommittee = () => {
         {
           name: "Prof. Rajeev Ahuja",
           role: "Director, IIT Ropar, India",
-          image: "/committee/avatar.png",
+          image: "/committee/rajeevahuja.jpg",
           link: "#",
         },
         {
           name: "Prof. Guoying Zhao",
           role: "Academy Professor, University of Oulu, Finland",
-          image: "/committee/avatar.png",
+          image: "/committee/guoyingzhao.jpg",
           link: "#",
         },
         {
           name: "Prof. Venkatesh Babu",
           role: "Professor, IISc Bangalore, India",
-          image: "/committee/avatar.png",
+          image: "/committee/venkateshbabu.jpg",
           link: "#",
         },
       ],
@@ -62,19 +62,19 @@ const OrganizingCommittee = () => {
         {
           name: "Dr. Santosh Vipparthi",
           role: "Associate Professor and Head, IIT Ropar, India",
-          image: "/committee/avatar.png",
+          image: "/committee/santoshvipparthi.jpg",
           link: "#",
         },
         {
           name: "Dr. Gaurav Bhatnagar",
           role: "Project Director, iHub-Drishti and Professor, IIT Jodhpur, India",
-          image: "/committee/avatar.png",
+          image: "/committee/gauravbhatnagar.jpg",
           link: "#",
         },
         {
           name: "Prof. Aparajita Ojha",
           role: "Professor, IIITDM Jabalpur, India",
-          image: "/committee/avatar.png",
+          image: "/committee/aparajitaojha.jpg",
           link: "#",
         },
       ],
@@ -85,19 +85,19 @@ const OrganizingCommittee = () => {
         {
           name: "Dr. Jagadeesh Kakarla",
           role: "Assistant Professor, IIITDM Kancheepuram, India",
-          image: "/committee/avatar.png",
+          image: "/committee/jagdeeshkakarla.jpeg",
           link: "#",
         },
         {
           name: "Dr. Shiv Ram Dubey",
           role: "Assistant Professor, IIIT Allahabad, India",
-          image: "/committee/avatar.png",
+          image: "/committee/srdubey.jpg",
           link: "#",
         },
         {
           name: "Prof. Sanjeev Kumar",
           role: "Professor, IIT Roorkee, India",
-          image: "/committee/avatar.png",
+          image: "/committee/sanjeevkumar",
           link: "#",
         },
         {
@@ -114,7 +114,7 @@ const OrganizingCommittee = () => {
         {
           name: "Dr. Sukrit Gupta",
           role: "Assistant Professor, IIT Ropar, India",
-          image: "/committee/avatar.png",
+          image: "/committee/sukritgupta.jpg",
           link: "#",
         },
       ],
@@ -125,30 +125,30 @@ const OrganizingCommittee = () => {
         {
           name: "Dr. Prashant Patil",
           role: "Assistant Professor, IIT Guwahati, India",
-          image: "/committee/avatar.png",
+          image: "/committee/prashantpatil.jpg",
           link: "#",
         },
         {
           name: "Dr. Kapil Rana",
           role: "Assistant Professor, TIET Patiala, India",
-          image: "/committee/avatar.png",
+          image: "/committee/kapilrana.jpg",
           link: "#",
         },
       ],
     },
     {
-      title: "Publications Chairs",
+      title: "Pulications Chairs",
       members: [
         {
           name: "Dr. Abhinav Dhall",
           role: "Associate Professor, Monash University, Australia",
-          image: "/committee/avatar.png",
+          image: "/committee/abhinavdhall.jpg",
           link: "#",
         },
         {
           name: "Dr. Neeraj Goel",
           role: "Assistant Professor, IIT Ropar, India",
-          image: "/committee/avatar.png",
+          image: "/committee/neerajgoel.jpg",
           link: "#",
         },
       ],
