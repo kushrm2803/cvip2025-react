@@ -75,7 +75,17 @@ const AdvisoryCommittee = () => {
         title="Advisory Committee"
         imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
-      <motion.div
+	    <div className="bg-white p-6 md:p-10 rounded-xl shadow-lg">
+        <ul className="list-disc list-outside text-base">
+		  <li>
+            <span className="font-normal">
+              Coming Soon ... 
+            </span>
+            <span className="text-red-600 ml-2"></span>
+          </li>
+	   </ul>
+	   </div>
+      {/*<motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -91,7 +101,7 @@ const AdvisoryCommittee = () => {
             link={member.link}
           />
         ))}
-      </motion.div>
+      </motion.div>*/}
     </div>
   );
 };

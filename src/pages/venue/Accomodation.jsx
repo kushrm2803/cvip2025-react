@@ -28,7 +28,7 @@ const Accommodation = () => {
   return (
     <div className="bg-gray-100 min-h-screen p-4 md:p-8">
       <HeroSection
-        title="Accommodation & Travel Grants"
+        title="Accommodation Details"
         imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
 
@@ -40,7 +40,7 @@ const Accommodation = () => {
           exit="exit"
           className="bg-white p-4 md:p-8 rounded-xl shadow-lg mb-8"
         >
-          <motion.section variants={sectionVariants} className="mb-8">
+		{/* <motion.section variants={sectionVariants} className="mb-8">
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
               Travel & Accommodation Grants
             </h2>
@@ -76,6 +76,13 @@ const Accommodation = () => {
               comfortable travel experience.
             </p>
           </motion.section>
+		*/}
+		  <motion.section variants={sectionVariants}>
+            <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
+              Coming Soon ...
+            </h2>
+          </motion.section>
+		
         </motion.div>
       </AnimatePresence>
     </div>

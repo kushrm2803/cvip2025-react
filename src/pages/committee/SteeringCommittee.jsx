@@ -6,58 +6,46 @@ import { motion } from "framer-motion";
 const SteeringCommittee = () => {
   const steeringMembers = [
     {
-      name: "Dr. Elizabeth Green",
-      role: "Senior Advisor",
-      image: "/committee/avatar.png",
-      link: "https://scholar.google.com/elizabeth",
+      name: "Prof. Umapada Pal",
+      role: "ISI Kolkata",
+      image: "/committee/ProfUmapadaPal.jpeg",
+      link: "https://www.isical.ac.in/~umapada/",
     },
     {
-      name: "Dr. Michael Lee",
-      role: "Technical Advisor",
-      image: "/committee/avatar.png",
-      link: "https://scholar.google.com/michael",
+      name: "Prof. R. Balasubramanian",
+      role: "IIT Roorkee",
+      image: "/committee/ProfRBalasubramanian.jpeg",
+      link: "https://faculty.iitr.ac.in/cs/bala/",
     },
     {
-      name: "Dr. Susan White",
-      role: "Strategic Advisor",
-      image: "/committee/avatar.png",
-      link: "https://scholar.google.com/susan",
+      name: "Prof. Ananda Choudhary",
+      role: "Jadavpur University",
+      image: "/committee/DrAnandaSChowdhury.jpg",
+      link: "https://sites.google.com/site/anandachowdhury/",
     },
     {
-      name: "Dr. David Brown",
-      role: "External Relations Advisor",
-      image: "/committee/avatar.png",
-      link: "https://scholar.google.com/david",
+      name: "Prof. Deepak Mishra",
+      role: "IIST Trivandrum",
+      image: "/committee/DrDeepakMishra.jpg",
+      link: "https://www.iist.ac.in/avionics/deepak.mishra",
     },
     {
-      name: "Dr. Anna Black",
-      role: "Research Advisor",
-      image: "/committee/avatar.png",
-      link: "https://scholar.google.com/anna",
+      name: "Prof. Pritee Khanna",
+      role: "IIITDM Jabalpur",
+      image: "/committee/ProfPriteeKhanna.jpg",
+      link: "http://cse.iiitdmj.ac.in/faculty_page.php?id=pkhanna@iiitdmj.ac.in",
     },
     {
-      name: "Dr. Elizabeth Green",
-      role: "Senior Advisor",
-      image: "/committee/avatar.png",
-      link: "https://scholar.google.com/elizabeth",
+      name: "Dr. Subrahmanyam Murala",
+      role: "Trinity College Dublin",
+      image: "/committee/DrSubrahmanyamMurala.jpeg",
+      link: "https://www.tcd.ie/scss/people/academic-staff/muralas/",
     },
     {
-      name: "Dr. Dustin Green",
-      role: "Senior Advisor",
-      image: "/committee/avatar.png",
-      link: "https://scholar.google.com/elizabeth",
-    },
-    {
-      name: "Dr. Elizabeth Jacob",
-      role: "Senior Advisor",
-      image: "/committee/avatar.png",
-      link: "https://scholar.google.com/elizabeth",
-    },
-    {
-      name: "Dr. Eliz Green",
-      role: "Senior Advisor",
-      image: "/committee/avatar.png",
-      link: "https://scholar.google.com/elizabeth",
+      name: "Dr. Puneet Goyal",
+      role: "IIT Ropar",
+      image: "/committee/Puneet_img1.jpg",
+      link: "http://cse.iitrpr.ac.in/dr-puneet-goyal",
     },
   ];
 
@@ -97,3 +85,11 @@ const SteeringCommittee = () => {
 };
 
 export default SteeringCommittee;
+
+
+
+
+
+
+
+

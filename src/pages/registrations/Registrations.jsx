@@ -115,7 +115,13 @@ const Registrations = () => {
 
       <div className="bg-white p-6 md:p-10 rounded-xl shadow-lg">
         <ul className="list-disc list-outside text-base">
-          <li>
+		  <li>
+            <span className="font-normal">
+              Coming Soon ... 
+            </span>
+            <span className="text-red-600 ml-2"></span>
+          </li>
+          {/*<li>
             <span className="font-normal">
               Registration and camera-ready submission portals open (Round 1):
             </span>
@@ -132,9 +138,9 @@ const Registrations = () => {
               Deadline for early bird registration (Round 1):
             </span>
             <span className="text-red-600 ml-2">August 01, 2025</span>
-          </li>
+          </li>*/}
         </ul>
-
+		{/*
         <h2 className="pt-4 text-2xl font-semibold mb-4">
           Registration Instructions
         </h2>
@@ -200,8 +206,9 @@ const Registrations = () => {
             Onsite registration will be available on the days of the conference (Dec 10-13, 2025) starting from 8:30 A.M. at the conference venue.
           </li>
         </ul>
-
+		*/}
         {/* Registration Table */}
+			{/*
         <p className="text-lg mt-8 mb-2">
           The registration categories and the corresponding charges are shown in the table below
         </p>
@@ -237,9 +244,12 @@ const Registrations = () => {
               ))}
             </tbody>
           </table>
-        </div>
+		  
+        </div> 
+		*/}
 
         {/* Notes Section */}
+			{/*
         <h3 className="text-3xl font-semibold my-4 text-gray-800">Notes</h3>
         <ul className="list-disc list-outside text-gray-700 space-y-2">
           <li>
@@ -266,7 +276,8 @@ const Registrations = () => {
           <li>
             We do not entertain <strong>cancellation of registrations</strong>, and no refunds will be provided.
           </li>
-        </ul>
+        </ul> 
+		*/}
       </div>
     </div>
   );

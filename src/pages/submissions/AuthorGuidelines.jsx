@@ -59,7 +59,7 @@ const AuthorGuidelines = () => {
                 exception.
               </p>
               <p className="text-base md:text-lg mb-4">
-                Authors should prepare their manuscripts of 12-15 pages (including
+                Authors should prepare their manuscripts of 10-15 pages (including
                 all text, figures, and references). The manuscript must be
                 submitted in pdf format only and the file size of your manuscript
                 should not exceed 10 MB as per guidelines of Springer-CCIS Series (
@@ -100,7 +100,7 @@ const AuthorGuidelines = () => {
             </header>
             <div>
               <p className="text-base md:text-lg mb-4">
-                The proceedings of the conference will be published by Scopus
+                The proceedings of the conference are planned to be published (application in process) by Scopus
                 Indexed – Springer in{" "}
                 <Link
                   to="https://www.springer.com/series/7899"
@@ -112,7 +112,7 @@ const AuthorGuidelines = () => {
                 </Link>
                 . CCIS is abstracted/indexed in DBLP, Google Scholar,
                 EI-Compendex, Mathematical Reviews, SCImago, Scopus. CCIS volumes
-                are also submitted for inclusion in ISI Proceedings.
+                are also generally submitted for inclusion in ISI Proceedings.
               </p>
             </div>
           </motion.article>
@@ -188,9 +188,9 @@ const AuthorGuidelines = () => {
             <div>
               <p className="text-base md:text-lg mb-4">
                 The manuscript has to be uploaded online at the CVIP 2025
-                Microsoft Research paper submission portal at the following link:
+                Microsoft Research paper submission portal. The portal link will be provided soon.
               </p>
-              <p className="text-base md:text-lg">
+              {/*<p className="text-base md:text-lg">
                 <Link
                   to="https://cmt3.research.microsoft.com/CVIP2025"
                   className="text-blue-600 hover:underline"
@@ -199,7 +199,11 @@ const AuthorGuidelines = () => {
                 >
                   https://cmt3.research.microsoft.com/CVIP2025
                 </Link>
+              </p>*/}
+			   <p className="text-base md:text-lg mb-4">
+                Acknowledgement: The Microsoft CMT service is used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
               </p>
+			  
             </div>
           </motion.article>
         </motion.div>

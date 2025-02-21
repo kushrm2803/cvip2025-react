@@ -2,17 +2,30 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const topicsList = [
-  "Activity Detection and Recognition",
-  "Biometrics and Forensic Analysis",
-  "Compressed Video Processing",
-  "Innovative Computational Imaging",
-  "Deep Learning for Visual Data",
-  "Document and Synthetic Image Analysis",
-  "Interpretable AI for Vision",
-  "Generative Models in Imaging",
-  "Medical Image Computing",
-  "Remote Sensing & Hyperspectral Analysis",
-  "3D Reconstruction Techniques",
+  "Activity Detection/ Recognition",
+"Biometrics, Forensics, Content Protection",
+"Compressed Image/ Video Analytics",
+"Computational Imaging",
+"Datasets and Evaluation",
+"Deep Learning for Computer Vision",
+"Document and Synthetic Visual Processing",
+"Document Image Analysis",
+"Explainable AI for Computer Vision",
+"Face, Iris, Emotion, Sign Language and Gesture Recognition",
+"Generative AI for Computer Vision",
+"Human Computer Interaction",
+"Image Restoration/Super Resolution ",
+"Image/ Video Processing for Autonomous Vehicles / Motion / Tracking",
+"Image/ Video Retrieval / Forensics",
+"Image/ Video Scene Understanding",
+"Image/ Video Security and Quality Assessment",
+"Medical Image Analysis",
+"Quantum Computer Vision",
+"Remote Sensing, Hyperspectral Image Processing",
+"Segmentation and Shape Representation",
+"Vision based Human Gait Analysis",
+"Visual Sensor Hardware, Visual Surveillance",
+"3D/X-ray/Thermal Image/Video Processing",
 ];
 
 const topicVariants = {
@@ -32,7 +45,7 @@ const CallForPapersTopics = () => {
         Research Topics
       </h2>
       <p className="text-base md:text-lg mb-4">
-        We welcome submissions on a diverse range of subjects, including (but not limited to):
+        Topics of interest cover all aspects of computer vision and image processing including, but not limited to:
       </p>
       <ul className="list-disc list-inside text-base md:text-lg">
         {topicsList.map((topic, index) => (

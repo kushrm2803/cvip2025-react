@@ -36,7 +36,7 @@ const CallForPapersPage = () => {
               Submission Invitation
             </h2>
             <p className="text-base md:text-lg mb-4">
-              CVIP 2025 warmly invites pioneering research that challenges the status quo in artificial intelligence, computer vision, and image processing, along with their related fields. We are eager to receive submissions that introduce innovative methods and practical solutions to emerging challenges.
+              CVIP 2025 warmly invites pioneering research that pushes the boundaries of computer vision, image processing, and their related fields, including AI and deep learning applications specific to these domains. We welcome submissions that present innovative methodologies and practical solutions to emerging challenges.
             </p>
             <p className="text-base md:text-lg mb-4">
               Whether you are an established expert or an up-and-coming researcher, your contribution is vital to driving forward these exciting areas of study.
@@ -52,11 +52,11 @@ const CallForPapersPage = () => {
               Publication and Indexing
             </h2>
             <p className="text-base md:text-lg mb-4">
-              Accepted papers will be featured in the esteemed Springer CCIS series and will be widely indexed in scholarly databases such as DBLP, Google Scholar, EI-Compendex, ISI Proceedings, and Scopus—guaranteeing your research receives the recognition it deserves.
+              All previous editions of CVIP have been successfully published in the esteemed Springer CCIS series conference proceedings, widely indexed in scholarly databases such as DBLP, Google Scholar, EI-Compendex, ISI Proceedings, and Scopus.
             </p>
           </motion.section>
 
-          <motion.section variants={sectionVariants}>
+          {/*<motion.section variants={sectionVariants}>
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
               Retrieve the Full Document
             </h2>
@@ -73,7 +73,7 @@ const CallForPapersPage = () => {
                 Download PDF
               </a>
             </div>
-          </motion.section>
+          </motion.section>*/}
         </motion.div>
       </AnimatePresence>
     </div>
